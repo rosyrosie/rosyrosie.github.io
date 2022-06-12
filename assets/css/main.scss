@@ -54,3 +54,10 @@ $jekyll-config-map : {{ config_map }};
 @import "_custom/custom";
 
 @import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@font-face{
+  font-family: "Monaco";
+  src: url('/assets/fonts/Monaco.TTF') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
